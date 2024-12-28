@@ -1,16 +1,36 @@
 {
   "name": "blogging-site",
   "version": "1.0.0",
-  "description": "",
+  "description": "my blogging website",
   "main": "server.js",
   "scripts": {
-    "start":"nodemon server.js"
+    "start": "nodemon server.js",
+    "build": "webpack"
   },
-  "author": "",
+  "author": "saikumar",
   "license": "ISC",
   "dependencies": {
     "express-fileupload": "^1.4.3",
     "express.js": "^1.0.0",
     "nodemon": "^3.0.3"
-  }
+  },
+  "devDependencies": {
+    "webpack-cli": "^6.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Saikumar-2002/coding-raja-Technologies-Internship.git"
+  },
+  "keywords": [
+    "Html",
+    "css",
+    "javaScript",
+    "node",
+    "js",
+    "npm"
+  ],
+  "bugs": {
+    "url": "https://github.com/Saikumar-2002/coding-raja-Technologies-Internship/issues"
+  },
+  "homepage": "https://github.com/Saikumar-2002/coding-raja-Technologies-Internship#readme"
 }
